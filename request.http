@@ -1,0 +1,12 @@
+# A porta 80 é a porta do kong
+POST http://localhost:80/api/bets
+content-type: application/json
+Host: bets-app.com.br 
+
+{
+    "match": "1X-DC",
+    "email": "joe@doe.com",
+    "championship": "Uefa Champions League",
+    "awayTeamScore": "2",
+    "homeTeamScore": "3"
+}
